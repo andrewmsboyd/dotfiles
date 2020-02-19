@@ -98,5 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# aliases
+alias duck="ddgr --num 5"
+alias ls="ls -la"
+alias edit="nano"
+
+# Add Ruby on Rails bins to my path
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
