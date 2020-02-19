@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias duck="ddgr --num 5"
-alias ls="ls -la"
+alias ls="ls -la --color=auto"
 alias edit="nano"
 
 # Add Ruby on Rails bins to my path
